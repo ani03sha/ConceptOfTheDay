@@ -1,6 +1,8 @@
 package org.redquark.conceptoftheday
 
-
+/**
+ * @author Anirudh Sharma
+ */
 fun findMaximumSum(a: IntArray, k: Int): Int {
     val n = a.size
     // Current sum - sum of the current window
