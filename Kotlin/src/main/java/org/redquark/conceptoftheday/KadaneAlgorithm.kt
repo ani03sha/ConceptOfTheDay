@@ -3,6 +3,9 @@ package org.redquark.conceptoftheday
 import kotlin.math.max
 
 fun maximumSum(a: IntArray): Int {
+    if (a.isEmpty()) {
+        return 0
+    }
     var globalMaximum = a[0]
     var localMaximum = a[0]
     for (i in 1 until a.size) {
