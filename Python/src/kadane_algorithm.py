@@ -4,7 +4,7 @@
 
 
 def maximum_sum(a):
-    if a is None:
+    if a is None or len(a) == 0:
         return 0
     global_maximum = a[0]
     local_maximum = a[0]
