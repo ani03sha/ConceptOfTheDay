@@ -1,4 +1,7 @@
 function maximum_sum(a) {
+    if (!a || a.length == 0) {
+        return 0;
+    }
     let localMaximum = a[0];
     let globalMaximum = a[0];
     for(let i = 0; i < a.length; i++) {
