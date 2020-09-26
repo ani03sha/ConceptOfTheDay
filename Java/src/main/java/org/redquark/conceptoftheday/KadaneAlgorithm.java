@@ -6,7 +6,7 @@ package org.redquark.conceptoftheday;
 public class KadaneAlgorithm {
 
     private static int maximumSum(int[] a) {
-        if (a == null) {
+        if (a == null || a.length == 0) {
             return 0;
         }
         int globalMaximum = a[0];
